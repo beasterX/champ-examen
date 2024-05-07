@@ -1,0 +1,279 @@
+ 1. To display a message box in the center of the screen, you pass this as the first argument to the JOptionPane.showMessageDialog method. 
+a. JOptionPane.CENTER
+b. The X and Y coordinates of the screen’s center 
+c. null
+d. 0
+ANSWER: a
+
+ 2. This type of dialog box suspends execution of any other statements until the dialog box is closed. 
+a. private 
+b. modal 
+c. dominant 
+d. system 
+ANSWER: b
+
+ 3. The JOptionPane.showInputDialog method returns this if the user clicks on the OK button. 
+a. null
+b. JOptionPane.OK_BUTTON
+c. 0
+d. the value entered into the dialog box’s text field 
+ANSWER: a
+
+ 4. The JOptionPane.showInputDialog method returns this if the user clicks on the Cancel button. 
+a. null
+b. JOptionPane.CANCEL_BUTTON
+c. 0
+d. -1
+ANSWER: a
+
+ 5. The JOptionPane.showConfirmDialog method returns this if the user clicks on the Yes button. 
+a. null
+b. JOptionPane.YES_OPTION
+c. 1
+d. JOptionPane.YES_BUTTON
+ANSWER: b
+
+ 6. This is required in a GUI application to stop the program’s execution. 
+a. an exception 
+b. a call to the JSystem.stop method 
+c. the end of the main method must be reached 
+d. a call to the System.exit method
+ANSWER: d
+
+ 7. With Swing, you use this class to create a frame. 
+a. Frame
+b. SwingFrame
+c. JFrame
+d. JavaFrame
+ANSWER: c
+
+ 8. Swing components are part of this package. 
+a. java.swing
+b. javax.swing
+c. java.awt.swing
+d. java.graphics.swing
+ANSWER: a
+
+ 9. This is the part of a JFrame object that holds the components that have been added to the JFrame object. 
+a. content pane 
+b. viewing area 
+c. component array 
+d. object collection 
+ANSWER: a
+
+10. This is a JPanel object’s default layout manager. 
+a. BorderLayout
+b. GridLayout
+c. FlowLayout
+d. None 
+ANSWER: c
+
+11. This is the default layout manager for a JFrame object’s content pane. 
+a. BorderLayout
+b. GridLayout
+c. FlowLayout
+d. None 
+ANSWER: a
+
+12. If a container is governed by a BorderLayout manager and you add a component to it, but you do not pass the second argument specifying the region, this is the region in which the component will be added. 
+a. north 
+b. south 
+c. east 
+d. center 
+ANSWER: d
+
+13. Components in this/these regions of a BorderLayout manager are resized horizontally so they fill up the entire region. 
+a. north and south 
+b. east and west 
+c. center only 
+d. north, south, east, and west 
+ANSWER: a
+
+14. Components in this/these regions of a BorderLayout manager are resized vertically so they fill up the entire region. 
+a. north and south 
+b. east and west 
+c. center only 
+d. north, south, east, and west
+ANSWER: a
+
+15. Components in this/these regions of a BorderLayout manager are resized both horizontally and vertically so they fill up the entire region. 
+a. north and south 
+b. east and west 
+c. center only 
+d. north, south, east, and west. 
+ANSWER: c
+
+16. This is the default alignment of a FlowLayout manager. 
+a. left 
+b. center 
+c. right 
+d. no alignment 
+ANSWER: a
+
+17. Adding radio button components to this type of object creates a mutually exclusive relationship between them. 
+a. MutualExclude
+b. RadioGroup
+c. LogicalGroup
+d. ButtonGroup
+ANSWER: d
+
+18. Any component that inherits from this class can have a border around it. 
+a. Container
+b. Object
+c. JCom p onent
+d. JFrame
+ANSWER: c
+
+19. You use this class to create Border objects. 
+a. BorderFactory
+b. BorderMaker
+c. BorderCreator
+d. BorderSource
+ANSWER: a
+
+ 1. You can use this method to make a text field read-only. 
+a. setReadOnly
+b. setChangeable
+c. setUneditable
+d. setEditable
+ANSWER: a
+
+ 2. A JList component generates this type of event when the user selects an item. 
+a. action event 
+b. item event 
+c. list selection event 
+d. list change event 
+ANSWER: b
+
+ 3. To display a scroll bar with a JList component, you must do this. 
+a. nothing—the JList automatically appears with scroll bars if necessary 
+b. add the JList component to a JScrollPane component 
+c. call the setScrollBar method 
+d. you cannot display a scroll bar with a JList component
+ANSWER: b
+
+ 4. This is the JList component’s default selection mode. 
+a. single selection 
+b. single interval selection 
+c. multiple selection 
+d. multiple interval selection 
+ANSWER: a
+
+ 5. A list selection listener must have this method. 
+a. valueChanged
+b. selectionChanged
+c. actionPerformed
+d. itemSelected
+ANSWER: a
+
+ 6. The ListSelectionListener interface is in this package. 
+a. java.awt
+b. java.awt.event
+c. javax.swing.event
+d. javax.event
+ANSWER: c
+
+ 7. This JList method returns –1 if no item in the list is selected. 
+a. getSelectedValue
+b. getSelectedItem
+c. getSelectedIndex
+d. getSelection
+ANSWER: c
+
+ 8. A JComboBox component generates this type of event when the user selects an item. 
+a. action event 
+b. item event 
+c. list selection event 
+d. list change event 
+ANSWER: a
+
+ 9. You can pass an instance of this class to the JLabel constructor if you want to display an image in the label. 
+a. ImageFile
+b. ImageIcon
+c. JLabelImage
+d. JImageFile
+ANSWER: b
+
+10. This method can be used to store an image in a JLabel or a JButton component. 
+a. setImage
+b. storeImage
+c. getIcon
+d. setIcon
+ANSWER: d
+
+11. This is text that appears in a small box when the user holds the mouse cursor over a component. 
+a. mnemonic 
+b. instant message 
+c. tool tip 
+d. pop-up mnemonic 
+ANSWER: c
+
+12. This is a key that activates a component just as if the user clicked on it with the mouse. 
+a. mnemonic 
+b. key activator 
+c. tool tip 
+d. click simulator 
+ANSWER: a
+
+13. To display an open file or save file dialog box, you use this class. 
+a. JFileChooser
+b. JOpenSaveDialog
+c. JFileDialog
+d. JFileOptionPane
+ANSWER: a
+
+14. To display a dialog box that allows the user to select a color, you use this class. 
+a. JColor
+b. JColorDialog
+c. JColorChooser
+d. JColorOptionPane
+ANSWER: c
+
+15. You use this class to create a menu bar. 
+a. MenuBar
+b. JMenuBar
+c. JMenu
+d. JBar
+ANSWER: b
+
+16. You use this class to create a radio button menu item. 
+a. JMenuItem
+b. JRadioButton
+c. JRadioButtonItem
+d. JRadioButtonMenuItem
+ANSWER: d
+
+17. You use this method to place a menu bar on a JFrame. 
+a. setJMenuBar
+b. setMenuBar
+c. placeMenuBar
+d. setJMenu
+ANSWER: a
+
+18. The setPreferredSize method accepts this as its argument(s). 
+a. a Size object 
+b. two int values 
+c. a Dimension object 
+d. one int value
+ANSWER: c
+
+19. Components of this class are multiline text fields. 
+a. JMultiLineTextField
+b. JTextArea
+c. JTextField
+d. JEditField
+ANSWER: b
+
+20. This method is inherited from JComponent and changes the appearance of a component’s text. 
+a. setAppearance
+b. setTextAppearance
+c. setFont
+d. setText
+ANSWER: c
+
+21. This method sets the intervals at which major tick marks are displayed on a JSlider component. 
+a. setMajorTickSpacing
+b. setMajorTickIntervals
+c. setTickSpacing
+d. setIntervals
+ANSWER: a

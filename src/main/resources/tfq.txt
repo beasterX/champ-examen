@@ -1,0 +1,51 @@
+20. True or False: A JOptionPane confirm dialog box has a text field for the user to enter input. 
+ANSWER: false
+21. True or False: Only one type of icon may be displayed in a JOptionPane message box.
+ANSWER: true 
+22. True or False: A panel cannot be displayed by itself. 
+ANSWER: true
+23. True or False: You can place multiple components inside a GridLayout cell. 
+ANSWER: false
+24. True or False: You can place multiple components inside a BorderLayout region. 
+ANSWER: true
+25. True or False: You can place multiple components inside a container governed by a FlowLayout manager. 
+ANSWER: true
+26. True or False: You can place a panel inside a region governed by a BorderLayout manager. 
+ANSWER: true
+27. True or False: A component placed in a GridLayout manager’s cell will not be resized to fill up any extra space in the cell. 
+ANSWER: true
+28. True or False: You normally add JCheckBox components to a ButtonGroup object. 
+ANSWER: false
+29. True or False: A mutually exclusive relationship is automatically created between all JRadioButton components that are in the same container. 
+ANSWER: false
+30. True or False: You can write a class that inherits from the JPanel class.
+ANSWER: true
+22. True or False: You can use code to change the contents of a read-only text field. 
+ANSWER: false
+23. True or False: A JList component automatically appears with a line border drawn around it. 
+ANSWER: false
+24. True or False: In single interval selection mode, the user may select multiple items from a JList component. 
+ANSWER: false
+25. True or False: With an editable combo box, the user may only enter a value that appears in the component’s list. 
+ANSWER: false
+26. True or False: You can store either text or an image in a JLabel object, but not both. 
+ANSWER: false
+27. True or False: You can store large images as well as small ones in a JLabel component. 
+ANSWER: true
+28. True or False: Mnemonics are helpful for users who are good with the keyboard. 
+ANSWER: true
+29. True or False: A JMenuBar object acts as a container for JMenu components. 
+ANSWER: true
+30. True or False: A JMenu object cannot contain other JMenu objects. 
+ANSWER: false
+31. True or False: A JTextArea component does not automatically display scroll bars. 
+ANSWER: true
+32. True or False: By default, a JTextArea component does not perform line wrapping. 
+ANSWER: true
+33. True or False: A JSlider component generates an action event when the slider knob is moved. 
+ANSWER: true
+34. True or False: By default, a JSlider component displays labels and tick marks. 
+ANSWER: true
+35. True or False: When labels are displayed on a JSlider component, they are displayed on the major tick marks. 
+ANSWER: true 
+
