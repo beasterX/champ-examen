@@ -38,6 +38,7 @@ public class HelloApplication extends Application {
         for (int i = 0; i < rand.length; i++) {
             rand[i] = random.nextInt(65);
         }
+
         LinkedList<Question> questions = myBank.selectRandQuestions(rand);
 
         this.exam = new Exam(questions);
@@ -66,6 +67,7 @@ public class HelloApplication extends Application {
         scrollPane.setFitToWidth(true);
         root.getChildren().add(scrollPane);
         Scene scene = new Scene(root, 900, 650);
+        stage.setMaximized(true);
         stage.setScene(scene);
         stage.setTitle("ChampExamen: Champs Testing App");
         stage.show();
@@ -163,14 +165,21 @@ public class HelloApplication extends Application {
             for (int i = 0; i < exam.getNumberOfQuestions(); i++) {
                 String correctAnswer = exam.getQuestion(i).getCorrectAnswer().toLowerCase();
                 String submittedAnswer = exam.getSubmittedAnswer(i);
-                System.out.println("Correct Answer for Question " + (i) + ": " + correctAnswer);
-                System.out.println("Submitted Answer for Question " + (i) + " : " + submittedAnswer);
+                System.out.println("Correct Answer for Question " + (i+1) + ": " + correctAnswer);
                 if (correctAnswer.equalsIgnoreCase(submittedAnswer)) {
                     counter++;
                 }
             }
-            labelShowingGrade.setText(String.format("Grade: %d out of %d", counter, exam.getNumberOfQuestions()));
-            System.out.printf("Grade: %d out of %d\n", counter, exam.questions.size());
+            labelShowingGrade.setText(String.format("Grade: %d / %d", counter, exam.getNumberOfQuestions()));
+            System.out.printf("Grade: %d / %d\n", counter, exam.questions.size());
+
+            if (counter == exam.getNumberOfQuestions()) {
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Congratulations!");
+                alert.setHeaderText(null);
+                alert.setContentText("Congratulations! You got 10/10!");
+                alert.showAndWait();
+                }
         }
     }
 
